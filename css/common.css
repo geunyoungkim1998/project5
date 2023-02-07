@@ -73,6 +73,13 @@ ul, li, ol {
   font-weight: 700;
 }
 
+.koPubW14 {
+  font-family: "KoPubWorldDotum";
+  font-size: 14px;
+  color: #eee;
+  font-weight: 700;
+}
+
 .leferiB30 {
   font-family: "LeferiPoint-BlackA";
   font-size: 30px;
@@ -83,6 +90,16 @@ ul, li, ol {
   font-family: "LeferiPoint-BlackA";
   font-size: 30px;
   color: #009eff;
+}
+
+.leferiBl20 {
+  font-family: "LeferiPoint-BlackA";
+  font-size: 25px;
+  color: #009eff;
+}
+
+hr {
+  border: 1px solid #eee;
 }
 
 /* arrow */

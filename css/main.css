@@ -41,6 +41,36 @@ body > div {
   cursor: pointer;
 }
 
+#sec2 div:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+#sec2 div:nth-of-type(1) img {
+  width: 30px;
+  height: 30px;
+}
+#sec2 div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+#sec2 div:nth-of-type(2) button {
+  width: 50px;
+  height: 30px;
+  border-radius: 15px;
+  border: 0px solid black;
+}
+#sec2 div:nth-of-type(2) button:nth-of-type(1) {
+  background-color: #009eff;
+  color: #eee;
+}
+#sec2 div:nth-of-type(2) button:nth-of-type(2) {
+  background-color: white;
+  color: #222;
+}
+
 #sec3 {
   display: flex;
   align-items: center;
@@ -48,7 +78,7 @@ body > div {
   width: 1100px;
 }
 #sec3 div {
-  width: 800px;
+  width: 750px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
