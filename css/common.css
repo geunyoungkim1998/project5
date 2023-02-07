@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,li,ol{
+    list-style-type: none;
+}
+
+/* font */
+
+
+/* header */
+header{
+    width:100%;
+    height: 40px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+header>div{
+    width: 1100px;
+    height: 40px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 380px;
+    background-color: white;
+    border-top:1px solid #ddd;
+}

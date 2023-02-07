@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body>div{
+    width: 1100px;
+    background-color: aliceblue;
+    border-bottom: 1px solid #ddd;
+}
+#sec1{
+    height: 70px;
+}
+#sec2{
+    height: 500px;
+}
+#sec3{
+    height: 150px;
+}
+#sec4{
+    height: 300px;
+}
+#sec5{
+    height: 400px;
+}
+#sec6{
+    height: 300px;
+}
+#sec7{
+    height: 400px;
+}
+#sec8{
+    height: 500px;
+}
+#sec9{
+    height: 300px;
+}
