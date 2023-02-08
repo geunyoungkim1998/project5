@@ -54,6 +54,13 @@ ul,li,ol{
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .koPubB14{
     font-family: 'KoPubWorldDotum';
     font-size: 14px;
@@ -89,6 +96,11 @@ ul,li,ol{
     font-size: 30px;
     color: #222;
 }
+.leferiB20 {
+    font-family: "LeferiPoint-BlackA";
+    font-size: 20px;
+    color: #222;
+}
 .leferiBl30{
     font-family: 'LeferiPoint-BlackA';
     font-size: 30px;
@@ -98,6 +110,21 @@ ul,li,ol{
     font-family: 'LeferiPoint-BlackA';
     font-size: 25px;
     color: #009eff;
+}
+.GangWonW30 {
+    font-family: "GangwonEduPowerExtraBoldA";
+    font-size: 30px;
+    color: #eee;
+}
+.GangWonW23 {
+    font-family: "GangwonEduPowerExtraBoldA";
+    font-size: 23px;
+    color: #eee;
+}
+.GangWonW15 {
+    font-family: "GangwonEduPowerExtraBoldA";
+    font-size: 15px;
+    color: #eee;
 }
 
 hr{
@@ -182,6 +209,7 @@ footer{
                         align-items: center;
                         height: 20px;
                         margin-bottom: 8px;
+                        cursor: pointer;
                         img{
                             width: 20px;
                             height: auto;
@@ -192,12 +220,13 @@ footer{
             }
         }
         div{
-            width: 100px;
+            width: 170px;
             margin-top: 0px;
             img{
-                width:30px;
-                height: 30px;
+                width:50px;
+                height: 50px;
                 opacity: 0.5;
+                cursor: pointer;
             }
         }
     }
@@ -206,7 +235,7 @@ footer{
         height: 160px;
         details{
             summary::marker{
-                content:">";
+                content:"+";
             }
             ul{
                 width: 600px;
@@ -215,11 +244,14 @@ footer{
             }
         }
         details[open] summary::marker{
-            content: "V";
+            content: "-";
         }
         ul{
             display: flex;
             align-items: center;
+            li{
+                cursor: pointer;
+            }
             li:not(:first-child){
                 padding: 2px 10px 5px;
                 border-left: 1px solid #eee;
