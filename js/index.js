@@ -1,6 +1,6 @@
 // 슬라이드
 function bookSlide() {
-    $("#bookSlide>div:nth-of-type(1)").animate({ "width": "44px", "margin-left": "-50px" }, 700, function () {
+    $("#bookSlide>div:nth-of-type(1)").stop().animate({ "width": "44px", "margin-left": "-50px" }, 700, function () {
         $("#bookSlide>div:nth-of-type(1)").insertAfter("#bookSlide>div:last-child");
         $("#bookSlide>div:nth-of-type(1)").animate({ "margin-left": "0" });
         $("#bookSlide>div:last-child").animate({ "margin-left": "6px" });
@@ -10,22 +10,25 @@ function bookSlide() {
 setInterval(bookSlide, 8000);
 
 // 슬라이드버튼
-$("#bSL").click(function () {
-    $("#bookSlide>div:nth-of-type(1)").animate({ "width": "44px", "margin-left": "-44px" }, 700, function () {
-        $("#bookSlide>div:nth-of-type(1)").insertAfter("#bookSlide>div:last-child");
-        $("#bookSlide>div:nth-of-type(1)").animate({ "margin-left": "0" });
-        $("#bookSlide>div:last-child").animate({ "margin-left": "6px" });
+$(function(){
+    $("#bSL").click(function () {
+        $("#bookSlide>div:nth-of-type(1)").stop().animate({ "width": "44px", "margin-left": "-44px" }, 700, function () {
+            $("#bookSlide>div:nth-of-type(1)").insertAfter("#bookSlide>div:last-child");
+            $("#bookSlide>div:nth-of-type(1)").animate({ "margin-left": "0" });
+            $("#bookSlide>div:last-child").animate({ "margin-left": "6px" });
+        });
+        $("#bookSlide>div:nth-of-type(2)").animate({ "width": "1000px" }, 700);
     });
-    $("#bookSlide>div:nth-of-type(2)").animate({ "width": "1000px" }, 700);
-});
-$("#bSR").click(function () {
-    $("#bookSlide>div:nth-of-type(2)").animate({ "width": "44px", "margin-left": "-44px" }, 700, function () {
-        $("#bookSlide>div:nth-of-type(1)").insertAfter("#bookSlide>div:first-child");
-        $("#bookSlide>div:nth-of-type(1)").animate({ "margin-left": "0" });
-        $("#bookSlide>div:last-child").animate({ "margin-left": "6px" });
+    $("#bSR").click(function () {
+        $("#bookSlide>div:nth-of-type(1)").stop().animate({ "width": "44px", "margin-left": "-50px" }, 700, function () {
+            $("#bookSlide>div:nth-of-type(1)").insertAfter("#bookSlide>div:last-child");
+            $("#bookSlide>div:nth-of-type(1)").animate({ "margin-left": "0" });
+            $("#bookSlide>div:last-child").animate({ "margin-left": "6px" });
+        });
+        $("#bookSlide>div:nth-of-type(2)").animate({ "width": "1000px" }, 700);
     });
-    $("#bookSlide>div:nth-of-type(1)").animate({ "width": "1000px" }, 700);
 });
+
 
 // btn
 $(function () {
