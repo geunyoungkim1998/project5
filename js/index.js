@@ -35,7 +35,7 @@ $(function () {
         $("#sec4R").stop().animate({ "opacity": "1" });
     });
     $("#sec4R").click(function () {
-        $("#sec4book").stop().animate({ "margin-left": "-737.2px" });
+        $("#sec4book").stop().animate({ "margin-left": "-1105px" });
         $("#sec4R").stop().animate({ "opacity": "0.4" });
         $("#sec4L").stop().animate({ "opacity": "1" });
     });
@@ -45,7 +45,7 @@ $(function () {
         $("#sec6R").stop().animate({ "opacity": "1" });
     });
     $("#sec6R").click(function () {
-        $("#sec6book").stop().animate({ "margin-left": "-737.2px" });
+        $("#sec6book").stop().animate({ "margin-left": "-1105px" });
         $("#sec6R").stop().animate({ "opacity": "0.4" });
         $("#sec6L").stop().animate({ "opacity": "1" });
     });
@@ -55,7 +55,7 @@ $(function () {
         $("#sec9R").stop().animate({ "opacity": "1" });
     });
     $("#sec9R").click(function () {
-        $("#sec9book").stop().animate({ "margin-left": "-737.2px" });
+        $("#sec9book").stop().animate({ "margin-left": "-1105px" });
         $("#sec9R").stop().animate({ "opacity": "0.4" });
         $("#sec9L").stop().animate({ "opacity": "1" });
     });
@@ -65,7 +65,7 @@ $(function () {
 $.ajax({
     method: "GET",
     url: "https://dapi.kakao.com/v3/search/book?target=title",
-    data: { query: "고양이" },
+    data: { query: "고양이",size:12},
     headers: { Authorization: "KakaoAK 87a9e903eabc646c05a3272f6c877021" }
 })
     .done(function (msg) {
@@ -79,7 +79,7 @@ $.ajax({
 $.ajax({
     method: "GET",
     url: "https://dapi.kakao.com/v3/search/book?target=title",
-    data: { query: "VOGUE" },
+    data: { query: "VOGUE" ,size:12},
     headers: { Authorization: "KakaoAK 87a9e903eabc646c05a3272f6c877021" }
 })
     .done(function (msg) {
@@ -93,7 +93,7 @@ $.ajax({
 $.ajax({
     method: "GET",
     url: "https://dapi.kakao.com/v3/search/book?target=title",
-    data: { query: "비건" },
+    data: { query: "비건" ,size:12},
     headers: { Authorization: "KakaoAK 87a9e903eabc646c05a3272f6c877021" }
 })
     .done(function (msg) {
