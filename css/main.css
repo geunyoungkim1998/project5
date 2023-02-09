@@ -3,13 +3,18 @@ body > div {
 }
 
 body > div > p:not(:first-of-type),
-body > div > p:not(:nth-of-type(2)) {
-  padding: 20px 0px;
+body > div > p:not(:nth-of-type(2)),
+body > div > div > p {
+  margin-bottom: -20px;
 }
 
 body > div:not(:first-of-type),
 body > div:not(:nth-of-type(2)) {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+}
+
+body > div > button {
+  cursor: pointer;
 }
 
 #sec1 {
@@ -53,6 +58,7 @@ body > div:not(:nth-of-type(2)) {
 
 #sec2 {
   position: relative;
+  margin-bottom: 20px;
 }
 #sec2 div:nth-of-type(1) {
   display: flex;
@@ -64,6 +70,9 @@ body > div:not(:nth-of-type(2)) {
 #sec2 div:nth-of-type(1) img {
   width: 30px;
   height: 30px;
+}
+#sec2 div:nth-of-type(1) p {
+  margin-bottom: 0px;
 }
 #sec2 div:nth-of-type(2) {
   display: flex;
@@ -150,8 +159,255 @@ body > div:not(:nth-of-type(2)) {
   height: 70px;
 }
 
+#sec4 {
+  width: 1100px;
+  position: relative;
+}
+#sec4 p {
+  height: 60px;
+}
+#sec4 div {
+  width: 1100px;
+  overflow: hidden;
+}
+#sec4 div > div {
+  width: 2200px;
+  height: 340px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#sec4 div > div div {
+  width: 178.3px;
+  height: 100%;
+  border-radius: 5px;
+  margin-right: 6px;
+  display: flex;
+  align-items: space-between;
+}
+#sec4 div > div div img {
+  width: 178.3px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+#sec4 div > div div h4 {
+  font-family: "KoPubWorldDotum";
+  font-size: 16px;
+}
+#sec4 div > div div h6 {
+  font-family: "KoPubWorldDotum";
+  font-size: 12px;
+  color: #aaa;
+}
+#sec4 > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  background-color: white;
+  position: absolute;
+  transition: all 0.2s ease;
+}
+#sec4 > button:nth-of-type(1) {
+  top: 150px;
+  left: -20px;
+}
+#sec4 > button:nth-of-type(2) {
+  top: 150px;
+  right: -20px;
+}
+#sec4 > button:hover {
+  color: #aaa;
+}
+
+#sec5 {
+  position: relative;
+}
+#sec5 p {
+  height: 60px;
+  width: 1100px;
+}
+#sec5 > div {
+  width: 1100px;
+  overflow: hidden;
+  height: 440px;
+}
+#sec5 > div > div {
+  width: 2200px;
+  height: 440px;
+  display: flex;
+}
+#sec5 > div > div > div {
+  width: 380px;
+  height: 100%;
+  margin-right: 10px;
+  background-color: #009eff;
+  border-radius: 5px;
+}
+#sec5 > div > div > div > div {
+  width: 100%;
+  height: 140px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+}
+#sec5 > div > div > div:nth-of-type(6),
+#sec5 > div > div > div:nth-of-type(3) {
+  margin-right: 0px;
+}
+#sec5 > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  background-color: white;
+  position: absolute;
+  transition: all 0.2s ease;
+}
+#sec5 > button:nth-of-type(1) {
+  top: 240px;
+  left: -20px;
+}
+#sec5 > button:nth-of-type(2) {
+  top: 240px;
+  right: -20px;
+}
+#sec5 > button:hover {
+  color: #aaa;
+}
+
+#sec6 {
+  width: 1100px;
+  position: relative;
+}
+#sec6 p {
+  height: 60px;
+}
+#sec6 > div:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+}
+#sec6 > div:nth-of-type(1) p:nth-of-type(2) {
+  cursor: pointer;
+}
+#sec6 div:nth-of-type(2) {
+  width: 1100px;
+  overflow: hidden;
+}
+#sec6 div:nth-of-type(2) > div {
+  width: 2200px;
+  height: 340px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#sec6 div:nth-of-type(2) > div div {
+  width: 178.3px;
+  height: 100%;
+  border-radius: 5px;
+  margin-right: 6px;
+}
+#sec6 div:nth-of-type(2) > div img {
+  width: 178.3px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+#sec6 div:nth-of-type(2) > div h4 {
+  font-family: "KoPubWorldDotum";
+  font-size: 16px;
+}
+#sec6 div:nth-of-type(2) > div h6 {
+  font-family: "KoPubWorldDotum";
+  font-size: 12px;
+  color: #aaa;
+}
+#sec6 > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  background-color: white;
+  position: absolute;
+  transition: all 0.2s ease;
+}
+#sec6 > button:nth-of-type(1) {
+  top: 150px;
+  left: -20px;
+}
+#sec6 > button:nth-of-type(2) {
+  top: 150px;
+  right: -20px;
+}
+#sec6 > button:hover {
+  color: #aaa;
+}
+
+#sec7 {
+  position: relative;
+  width: 1100px;
+}
+#sec7 p {
+  height: 60px;
+}
+#sec7 div > p:nth-of-type(2) {
+  cursor: pointer;
+}
+#sec7 > div:nth-of-type(1) {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sec7 > div:nth-of-type(2) {
+  width: 1100px;
+  overflow: hidden;
+  height: 440px;
+}
+#sec7 > div:nth-of-type(2) > div {
+  width: 2200px;
+  height: 440px;
+  display: flex;
+}
+#sec7 > div:nth-of-type(2) > div > div {
+  width: 380px;
+  height: 100%;
+  margin-right: 10px;
+  background-color: #009eff;
+  border-radius: 5px;
+}
+#sec7 > div:nth-of-type(2) > div > div > div {
+  width: 100%;
+  height: 140px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+}
+#sec7 > div:nth-of-type(2) > div > div:nth-of-type(6),
+#sec7 > div:nth-of-type(2) > div > div:nth-of-type(3) {
+  margin-right: 0px;
+}
+#sec7 > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  background-color: white;
+  position: absolute;
+  transition: all 0.2s ease;
+}
+#sec7 > button:nth-of-type(1) {
+  top: 240px;
+  left: -20px;
+}
+#sec7 > button:nth-of-type(2) {
+  top: 240px;
+  right: -20px;
+}
+#sec7 > button:hover {
+  color: #aaa;
+}
+
 #sec8 {
   width: 1100px;
+}
+#sec8 p {
+  margin-bottom: 20px;
 }
 #sec8 div {
   height: 433px;
@@ -167,6 +423,7 @@ body > div:not(:nth-of-type(2)) {
   display: flex;
   justify-content: center;
   position: relative;
+  cursor: pointer;
 }
 #sec8 div div img {
   width: auto;
@@ -230,4 +487,69 @@ body > div:not(:nth-of-type(2)) {
 #sec8 div div:nth-of-type(5) div:nth-of-type(2) {
   background: green;
   background: linear-gradient(to top, rgb(236, 113, 79), rgba(0, 255, 0, 0));
+}
+
+#sec9 {
+  width: 1100px;
+  position: relative;
+}
+#sec9 p {
+  height: 60px;
+}
+#sec9 > div:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+}
+#sec9 > div:nth-of-type(1) p:nth-of-type(2) {
+  cursor: pointer;
+}
+#sec9 div:nth-of-type(2) {
+  width: 1100px;
+  overflow: hidden;
+}
+#sec9 div:nth-of-type(2) > div {
+  width: 2200px;
+  height: 340px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#sec9 div:nth-of-type(2) > div div {
+  width: 178.3px;
+  height: 100%;
+  border-radius: 5px;
+  margin-right: 6px;
+}
+#sec9 div:nth-of-type(2) > div img {
+  width: 178.3px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+#sec9 div:nth-of-type(2) > div h4 {
+  font-family: "KoPubWorldDotum";
+  font-size: 16px;
+}
+#sec9 div:nth-of-type(2) > div h6 {
+  font-family: "KoPubWorldDotum";
+  font-size: 12px;
+  color: #aaa;
+}
+#sec9 > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  background-color: white;
+  position: absolute;
+  transition: all 0.2s ease;
+}
+#sec9 > button:nth-of-type(1) {
+  top: 150px;
+  left: -20px;
+}
+#sec9 > button:nth-of-type(2) {
+  top: 150px;
+  right: -20px;
+}
+#sec9 > button:hover {
+  color: #aaa;
 }

@@ -1,16 +1,18 @@
 body>div{
     width: 1100px;
-    // background-color: aliceblue;
-    // border-bottom: 1px solid #eee;
 }
 
 body>div>p:not(:first-of-type),
-body>div>p:not(:nth-of-type(2)){
-    padding: 20px 0px;
+body>div>p:not(:nth-of-type(2)),
+body>div>div>p{
+    margin-bottom: -20px;
 }
 body>div:not(:first-of-type),
 body>div:not(:nth-of-type(2)){
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+}
+body>div>button{
+    cursor: pointer;
 }
 
 #sec1{
@@ -56,6 +58,7 @@ body>div:not(:nth-of-type(2)){
 
 #sec2{
     position: relative;
+    margin-bottom: 20px;
     div:nth-of-type(1){
         display: flex;
         justify-content: space-between;
@@ -65,6 +68,9 @@ body>div:not(:nth-of-type(2)){
         img{
             width: 30px;
             height: 30px;
+        }
+        p{
+            margin-bottom: 0px;
         }
     }
     div:nth-of-type(2){
@@ -153,8 +159,257 @@ body>div:not(:nth-of-type(2)){
     }
 }
 
+#sec4{
+    width:1100px;
+    position: relative;
+    p{
+        height: 60px;
+    }
+    div{
+        width:1100px;
+        overflow:hidden;
+        >div{
+            width:2200px;
+            height: 340px;
+            display: flex;
+            flex-wrap: wrap;
+            div{
+                width:178.3px;
+                height: 100%;
+                border-radius: 5px;
+                // background-color: #009eff;
+                margin-right: 6px;
+                display: flex;
+                align-items: space-between;
+                img{
+                    width: 178.3px;
+                    border-radius: 5px;
+                    border:1px solid #ddd;
+                }
+                h4{
+                    font-family: 'KoPubWorldDotum';
+                    font-size: 16px;
+                }
+                h6{
+                    font-family: 'KoPubWorldDotum';
+                    font-size: 12px;
+                    color:#aaa;
+                }
+            }
+        }
+    }
+    >button{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border:1px solid #eee;
+        background-color: white;
+        position: absolute;
+        transition:all 0.2s ease;
+    }
+    >button:nth-of-type(1){
+        top:150px;
+        left: -20px;
+    }
+    >button:nth-of-type(2){
+        top:150px;
+        right: -20px;
+    }
+    >button:hover{
+        color:#aaa;
+    }
+}
+
+#sec5{
+    position: relative;
+    p{
+        height: 60px;
+        width: 1100px;
+    }
+    >div{
+        width:1100px;
+        overflow: hidden;
+        height: 440px;
+        >div{
+            width:2200px;
+            height: 440px;
+            display: flex;
+            >div{
+                width:380px;
+                height: 100%;
+                margin-right: 10px;
+                background-color: #009eff;
+                border-radius: 5px;
+                >div{
+                    width:100%;
+                    height: 140px;
+                    background-color: lightblue;
+                    margin-bottom: 10px;
+                }
+            }
+            >div:nth-of-type(6),
+            >div:nth-of-type(3){
+                margin-right: 0px;
+            }
+        }
+    }
+    >button{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border:1px solid #eee;
+        background-color: white;
+        position: absolute;
+        transition:all 0.2s ease;
+    }
+    >button:nth-of-type(1){
+        top:240px;
+        left: -20px;
+    }
+    >button:nth-of-type(2){
+        top:240px;
+        right: -20px;
+    }
+    >button:hover{
+        color:#aaa;
+    }
+}
+
+#sec6{
+    width:1100px;
+    position: relative;
+    p{
+        height: 60px;
+    }
+    >div:nth-of-type(1){
+        display: flex;
+        justify-content: space-between;
+        p:nth-of-type(2){
+            cursor: pointer;
+        }
+    }
+    div:nth-of-type(2){
+        width:1100px;
+        overflow:hidden;
+        >div{
+            width:2200px;
+            height: 340px;
+            display: flex;
+            flex-wrap: wrap;
+            div{
+                width:178.3px;
+                height: 100%;
+                border-radius: 5px;
+                // background-color: #009eff;
+                margin-right: 6px;
+            }
+            img{
+                width: 178.3px;
+                border-radius: 5px;
+                border:1px solid #ddd;
+            }
+            h4{
+                font-family: 'KoPubWorldDotum';
+                font-size: 16px;
+            }
+            h6{
+                font-family: 'KoPubWorldDotum';
+                font-size: 12px;
+                color:#aaa;
+            }
+        }
+    }
+    >button{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border:1px solid #eee;
+        background-color: white;
+        position: absolute;
+        transition:all 0.2s ease;
+    }
+    >button:nth-of-type(1){
+        top:150px;
+        left: -20px;
+    }
+    >button:nth-of-type(2){
+        top:150px;
+        right: -20px;
+    }
+    >button:hover{
+        color:#aaa;
+    }
+}
+
+#sec7{
+    position: relative;
+    width: 1100px;
+    p{
+        height: 60px;
+    }
+    div>p:nth-of-type(2){
+        cursor: pointer;
+    }
+    >div:nth-of-type(1){
+        width: 1100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    >div:nth-of-type(2){
+        width:1100px;
+        overflow: hidden;
+        height: 440px;
+        >div{
+            width:2200px;
+            height: 440px;
+            display: flex;
+            >div{
+                width:380px;
+                height: 100%;
+                margin-right: 10px;
+                background-color: #009eff;
+                border-radius: 5px;
+                >div{
+                    width:100%;
+                    height: 140px;
+                    background-color: lightblue;
+                    margin-bottom: 10px;
+                }
+            }
+            >div:nth-of-type(6),
+            >div:nth-of-type(3){
+                margin-right: 0px;
+            }
+        }
+    }
+    >button{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border:1px solid #eee;
+        background-color: white;
+        position: absolute;
+        transition:all 0.2s ease;
+    }
+    >button:nth-of-type(1){
+        top:240px;
+        left: -20px;
+    }
+    >button:nth-of-type(2){
+        top:240px;
+        right: -20px;
+    }
+    >button:hover{
+        color:#aaa;
+    }
+}
+
 #sec8{
     width:1100px;
+    p{
+        margin-bottom: 20px;
+    }
     div{
         height: 433px;
         width: 1100px;
@@ -168,6 +423,7 @@ body>div:not(:nth-of-type(2)){
             display: flex;
             justify-content: center;
             position: relative;
+            cursor: pointer;
             img{
                 width:auto;
                 height: 100%;
@@ -257,5 +513,71 @@ body>div:not(:nth-of-type(2)){
                 background: linear-gradient(to top, rgba(236,113,79,1), rgba(0,255,0,0));
             }
         }
+    }
+}
+
+#sec9{
+    width:1100px;
+    position: relative;
+    p{
+        height: 60px;
+    }
+    >div:nth-of-type(1){
+        display: flex;
+        justify-content: space-between;
+        p:nth-of-type(2){
+            cursor: pointer;
+        }
+    }
+    div:nth-of-type(2){
+        width:1100px;
+        overflow:hidden;
+        >div{
+            width:2200px;
+            height: 340px;
+            display: flex;
+            flex-wrap: wrap;
+            div{
+                width:178.3px;
+                height: 100%;
+                border-radius: 5px;
+                // background-color: #009eff;
+                margin-right: 6px;
+            }
+            img{
+                width: 178.3px;
+                border-radius: 5px;
+                border:1px solid #ddd;
+            }
+            h4{
+                font-family: 'KoPubWorldDotum';
+                font-size: 16px;
+            }
+            h6{
+                font-family: 'KoPubWorldDotum';
+                font-size: 12px;
+                color:#aaa;
+            }
+        }
+    }
+    >button{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border:1px solid #eee;
+        background-color: white;
+        position: absolute;
+        transition:all 0.2s ease;
+    }
+    >button:nth-of-type(1){
+        top:150px;
+        left: -20px;
+    }
+    >button:nth-of-type(2){
+        top:150px;
+        right: -20px;
+    }
+    >button:hover{
+        color:#aaa;
     }
 }
