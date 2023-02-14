@@ -1,0 +1,140 @@
+#sub1 {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#sub1 #sub2 {
+  width: 75%;
+  height: auto;
+}
+#sub1 #sub2 > div {
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+#sub1 #sub2 #sub3 {
+  height: 400px;
+}
+#sub1 #sub2 #sub4 {
+  width: 98%;
+  border: 5px solid #eee;
+  margin: 10px;
+  height: 130px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#sub1 #sub2 #sub4 table:nth-of-type(1) {
+  width: 40%;
+  height: 90%;
+}
+#sub1 #sub2 #sub4 table:nth-of-type(2) {
+  width: 60%;
+  height: 50%;
+}
+#sub1 #sub2 #sub4 th {
+  text-align: left;
+  width: 80px;
+}
+#sub1 #sub2 #sub5 {
+  height: 300px;
+}
+#sub1 #sub2 #sub6 {
+  height: 300px;
+}
+#sub1 #sub2 #sub7 {
+  height: 400px;
+}
+#sub1 #sub2 #sub8 {
+  height: 300px;
+}
+#sub1 #sub2 #sub9 {
+  height: 300px;
+}
+#sub1 #sub2 #sub10 {
+  height: 300px;
+}
+#sub1 #sub2 #sub11 {
+  height: 300px;
+}
+#sub1 #sub2 #sub12 {
+  height: 800px;
+}
+#sub1 #sub2 #sub13 {
+  height: 300px;
+}
+#sub1 #sub2 #sub14 {
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#sub1 #sub2 #sub14 p {
+  width: 100%;
+  height: 40px;
+}
+#sub1 #sub2 #sub14 .blackhr {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+#sub1 #sub2 #sub14 .sellbox {
+  width: 20%;
+  text-align: center;
+}
+#sub1 #sub2 #sub14 .sellbox img {
+  width: 70%;
+  border: 1px solid #ddd;
+}
+#sub1 #sub2 #sub14 .sellbox h4, #sub1 #sub2 #sub14 .sellbox h6 {
+  width: 90%;
+  text-align: left;
+  padding-left: 15%;
+}
+#sub1 #sub2 #sub15 {
+  height: 600px;
+}
+#sub1 #nav {
+  width: 20%;
+  height: auto;
+  border-left: 1px solid #ddd;
+}
+#sub1 #nav img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+#sub1 #nav table {
+  margin: 18px;
+  margin-bottom: 0px;
+  border-collapse: collapse;
+}
+#sub1 #nav table th:first-child {
+  font-weight: bold;
+  text-align: left;
+}
+#sub1 #nav table tr:not(:first-child) > td:first-child {
+  font-weight: bold;
+  width: 17%;
+}
+#sub1 #nav table tr, #sub1 #nav table th, #sub1 #nav table td {
+  padding: 5px 0px;
+  border-bottom: 1px solid #ddd;
+  border-collapse: collapse;
+}
+#sub1 #nav table td:nth-of-type(2):hover {
+  color: #009eff;
+}
+#sub1 #nav button {
+  width: 90%;
+  margin-left: 10px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+}
+#sub1 #nav button:hover {
+  background-color: #dddddd;
+}
