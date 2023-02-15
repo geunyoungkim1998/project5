@@ -116,6 +116,7 @@
   height: 70px;
   border: 1px solid #ddd;
   border-right: none;
+  border-left: none;
 }
 #sub1 #sub2 #sub3 #sub3Text #Sub3Price > div:nth-of-type(2) > div {
   width: 100%;
