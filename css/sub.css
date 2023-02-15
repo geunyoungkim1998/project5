@@ -1,3 +1,10 @@
+.blackhr {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #222;
+  height: 1px;
+}
+
 #sub1 {
   width: 1000px;
   height: auto;
@@ -6,16 +13,138 @@
   justify-content: space-between;
 }
 #sub1 #sub2 {
-  width: 75%;
+  width: 77%;
   height: auto;
 }
-#sub1 #sub2 > div {
+#sub1 #sub2 > #sub3, #sub1 #sub2 #sub4, #sub1 #sub2 #sub5, #sub1 #sub2 #sub6, #sub1 #sub2 #sub7, #sub1 #sub2 #sub8, #sub1 #sub2 #sub9, #sub1 #sub2 #sub10, #sub1 #sub2 #sub11, #sub1 #sub2 #sub12, #sub1 #sub2 #sub13, #sub1 #sub2 #sub14, #sub1 #sub2 #sub15 {
   width: 100%;
   padding: 15px;
-  border-bottom: 1px solid #ddd;
 }
 #sub1 #sub2 #sub3 {
   height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+#sub1 #sub2 #sub3 #sub3Img {
+  width: 30%;
+  text-align: center;
+  height: 400px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sub1 #sub2 #sub3 #sub3Img img {
+  width: 200px;
+}
+#sub1 #sub2 #sub3 #sub3Img button {
+  width: 130px;
+  height: 40px;
+  border: 1px solid #009eff;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+#sub1 #sub2 #sub3 #sub3Img button:hover {
+  background-color: #e6f6ff;
+}
+#sub1 #sub2 #sub3 #sub3Text {
+  width: 67%;
+  height: 360px;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+#sub1 #sub2 #sub3 #sub3Text > p:first-of-type, #sub1 #sub2 #sub3 #sub3Text p:nth-of-type(3) {
+  width: 100%;
+}
+#sub1 #sub2 #sub3 #sub3Text > p:first-of-type > span:hover {
+  color: #009eff;
+}
+#sub1 #sub2 #sub3 #sub3Text > div:first-of-type > p > span {
+  font-weight: 700;
+}
+#sub1 #sub2 #sub3 #sub3Text > div:first-of-type > p > span:hover {
+  color: #009eff;
+}
+#sub1 #sub2 #sub3 #sub3Text > div:nth-of-type(2) {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#sub1 #sub2 #sub3 #sub3Text > div:nth-of-type(2) > button:first-child {
+  background-color: #009eff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  width: 40px;
+  height: 20px;
+}
+#sub1 #sub2 #sub3 #sub3Text > div:nth-of-type(2) > button:nth-of-type(2) {
+  border: none;
+  background-color: white;
+  position: absolute;
+  right: 0;
+}
+#sub1 #sub2 #sub3 #sub3Text > div:nth-of-type(2) > span:hover {
+  color: #009eff;
+}
+#sub1 #sub2 #sub3 #sub3Text #Sub3Price {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 70px;
+}
+#sub1 #sub2 #sub3 #sub3Text #Sub3Price > div:first-child {
+  width: 30%;
+  height: 70px;
+  border: 1px solid #ddd;
+  border-left: none;
+  background-color: #eff6fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sub1 #sub2 #sub3 #sub3Text #Sub3Price > div:nth-of-type(2) {
+  width: 70%;
+  height: 70px;
+  border: 1px solid #ddd;
+  border-right: none;
+}
+#sub1 #sub2 #sub3 #sub3Text #Sub3Price > div:nth-of-type(2) > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#sub1 #sub2 #sub3 #sub3Text #Sub3Price > div:nth-of-type(2) > div > p {
+  padding: 7px;
+}
+#sub1 #sub2 #sub3 #sub3Text > #sub3Button {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+#sub1 #sub2 #sub3 #sub3Text > #sub3Button button {
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: white;
+  margin-left: 5px;
+}
+#sub1 #sub2 #sub3 #sub3Text > #sub3Button button:last-child {
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  background-color: #009eff;
+  font-size: 16px;
+  color: white;
+  font-family: "KoPubWorldDotum";
+  font-weight: 700;
 }
 #sub1 #sub2 #sub4 {
   width: 98%;
@@ -24,6 +153,7 @@
   height: 130px;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 #sub1 #sub2 #sub4 table:nth-of-type(1) {
   width: 40%;
@@ -37,11 +167,40 @@
   text-align: left;
   width: 80px;
 }
-#sub1 #sub2 #sub5 {
-  height: 300px;
+#sub1 #sub2 #sub5 #sub5Up {
+  display: none;
+  top: 540px;
 }
-#sub1 #sub2 #sub6 {
-  height: 300px;
+#sub1 #sub2 #sub6 #sub6Up {
+  display: none;
+  top: 1170px;
+}
+#sub1 #sub2 #sub6, #sub1 #sub2 #sub5, #sub1 #sub2 #sub9, #sub1 #sub2 #sub10 {
+  height: 265px;
+  margin-bottom: 50px;
+  position: relative;
+}
+#sub1 #sub2 #sub6 .wrap, #sub1 #sub2 #sub5 .wrap, #sub1 #sub2 #sub9 .wrap, #sub1 #sub2 #sub10 .wrap {
+  overflow: hidden;
+  height: 215px;
+}
+#sub1 #sub2 #sub6 #textBox2, #sub1 #sub2 #sub6 #textBox1, #sub1 #sub2 #sub6 #textBox3, #sub1 #sub2 #sub6 #textBox4, #sub1 #sub2 #sub5 #textBox2, #sub1 #sub2 #sub5 #textBox1, #sub1 #sub2 #sub5 #textBox3, #sub1 #sub2 #sub5 #textBox4, #sub1 #sub2 #sub9 #textBox2, #sub1 #sub2 #sub9 #textBox1, #sub1 #sub2 #sub9 #textBox3, #sub1 #sub2 #sub9 #textBox4, #sub1 #sub2 #sub10 #textBox2, #sub1 #sub2 #sub10 #textBox1, #sub1 #sub2 #sub10 #textBox3, #sub1 #sub2 #sub10 #textBox4 {
+  line-height: 180%;
+  padding: 20px 0px;
+}
+#sub1 #sub2 #sub6 button, #sub1 #sub2 #sub5 button, #sub1 #sub2 #sub9 button, #sub1 #sub2 #sub10 button {
+  position: absolute;
+  top: 265px;
+  right: 0px;
+  margin-right: 20px;
+  border: 0px solid black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+#sub1 #sub2 #sub6 button img, #sub1 #sub2 #sub5 button img, #sub1 #sub2 #sub9 button img, #sub1 #sub2 #sub10 button img {
+  width: 15px;
+  height: auto;
 }
 #sub1 #sub2 #sub7 {
   height: 400px;
@@ -49,11 +208,17 @@
 #sub1 #sub2 #sub8 {
   height: 300px;
 }
-#sub1 #sub2 #sub9 {
-  height: 300px;
+#sub1 #sub2 #sub8 > .sellbox2 > div {
+  text-align: left;
+  margin-left: 20px;
 }
-#sub1 #sub2 #sub10 {
-  height: 300px;
+#sub1 #sub2 #sub9 #sub9Up {
+  opacity: 0;
+  top: 390px;
+}
+#sub1 #sub2 #sub10 #sub10Up {
+  opacity: 0;
+  top: 790px;
 }
 #sub1 #sub2 #sub11 {
   height: 300px;
@@ -64,36 +229,43 @@
 #sub1 #sub2 #sub13 {
   height: 300px;
 }
-#sub1 #sub2 #sub14 {
+#sub1 #sub2 #sub13 .blackhr {
+  margin-top: -20px;
+}
+#sub1 #sub2 #sub14, #sub1 #sub2 #sub15 {
   height: 600px;
+}
+#sub1 #sub2 #sub14 .blackhr, #sub1 #sub2 #sub15 .blackhr {
+  margin-top: -30px;
+}
+#sub1 #sub2 #sub8, #sub1 #sub2 #sub13, #sub1 #sub2 #sub14, #sub1 #sub2 #sub15 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
-#sub1 #sub2 #sub14 p {
+#sub1 #sub2 #sub8 p, #sub1 #sub2 #sub13 p, #sub1 #sub2 #sub14 p, #sub1 #sub2 #sub15 p {
   width: 100%;
   height: 40px;
 }
-#sub1 #sub2 #sub14 .blackhr {
+#sub1 #sub2 #sub8 .blackhr, #sub1 #sub2 #sub13 .blackhr, #sub1 #sub2 #sub14 .blackhr, #sub1 #sub2 #sub15 .blackhr {
   width: 100%;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid #222;
+  height: 1px;
 }
-#sub1 #sub2 #sub14 .sellbox {
+#sub1 #sub2 #sub8 .sellbox, #sub1 #sub2 #sub8 .sellbox1, #sub1 #sub2 #sub8 .sellbox1_1, #sub1 #sub2 #sub8 .sellbox2, #sub1 #sub2 #sub13 .sellbox, #sub1 #sub2 #sub13 .sellbox1, #sub1 #sub2 #sub13 .sellbox1_1, #sub1 #sub2 #sub13 .sellbox2, #sub1 #sub2 #sub14 .sellbox, #sub1 #sub2 #sub14 .sellbox1, #sub1 #sub2 #sub14 .sellbox1_1, #sub1 #sub2 #sub14 .sellbox2, #sub1 #sub2 #sub15 .sellbox, #sub1 #sub2 #sub15 .sellbox1, #sub1 #sub2 #sub15 .sellbox1_1, #sub1 #sub2 #sub15 .sellbox2 {
   width: 20%;
   text-align: center;
 }
-#sub1 #sub2 #sub14 .sellbox img {
+#sub1 #sub2 #sub8 .sellbox img, #sub1 #sub2 #sub8 .sellbox1 img, #sub1 #sub2 #sub8 .sellbox1_1 img, #sub1 #sub2 #sub8 .sellbox2 img, #sub1 #sub2 #sub13 .sellbox img, #sub1 #sub2 #sub13 .sellbox1 img, #sub1 #sub2 #sub13 .sellbox1_1 img, #sub1 #sub2 #sub13 .sellbox2 img, #sub1 #sub2 #sub14 .sellbox img, #sub1 #sub2 #sub14 .sellbox1 img, #sub1 #sub2 #sub14 .sellbox1_1 img, #sub1 #sub2 #sub14 .sellbox2 img, #sub1 #sub2 #sub15 .sellbox img, #sub1 #sub2 #sub15 .sellbox1 img, #sub1 #sub2 #sub15 .sellbox1_1 img, #sub1 #sub2 #sub15 .sellbox2 img {
   width: 70%;
   border: 1px solid #ddd;
 }
-#sub1 #sub2 #sub14 .sellbox h4, #sub1 #sub2 #sub14 .sellbox h6 {
-  width: 90%;
+#sub1 #sub2 #sub8 .sellbox h4, #sub1 #sub2 #sub8 .sellbox h6, #sub1 #sub2 #sub8 .sellbox1 h4, #sub1 #sub2 #sub8 .sellbox1 h6, #sub1 #sub2 #sub8 .sellbox1_1 h4, #sub1 #sub2 #sub8 .sellbox1_1 h6, #sub1 #sub2 #sub8 .sellbox2 h4, #sub1 #sub2 #sub8 .sellbox2 h6, #sub1 #sub2 #sub13 .sellbox h4, #sub1 #sub2 #sub13 .sellbox h6, #sub1 #sub2 #sub13 .sellbox1 h4, #sub1 #sub2 #sub13 .sellbox1 h6, #sub1 #sub2 #sub13 .sellbox1_1 h4, #sub1 #sub2 #sub13 .sellbox1_1 h6, #sub1 #sub2 #sub13 .sellbox2 h4, #sub1 #sub2 #sub13 .sellbox2 h6, #sub1 #sub2 #sub14 .sellbox h4, #sub1 #sub2 #sub14 .sellbox h6, #sub1 #sub2 #sub14 .sellbox1 h4, #sub1 #sub2 #sub14 .sellbox1 h6, #sub1 #sub2 #sub14 .sellbox1_1 h4, #sub1 #sub2 #sub14 .sellbox1_1 h6, #sub1 #sub2 #sub14 .sellbox2 h4, #sub1 #sub2 #sub14 .sellbox2 h6, #sub1 #sub2 #sub15 .sellbox h4, #sub1 #sub2 #sub15 .sellbox h6, #sub1 #sub2 #sub15 .sellbox1 h4, #sub1 #sub2 #sub15 .sellbox1 h6, #sub1 #sub2 #sub15 .sellbox1_1 h4, #sub1 #sub2 #sub15 .sellbox1_1 h6, #sub1 #sub2 #sub15 .sellbox2 h4, #sub1 #sub2 #sub15 .sellbox2 h6 {
+  width: 85%;
   text-align: left;
   padding-left: 15%;
-}
-#sub1 #sub2 #sub15 {
-  height: 600px;
 }
 #sub1 #nav {
   width: 20%;

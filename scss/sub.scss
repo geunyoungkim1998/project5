@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+.blackhr{
+    width: 100%;
+    border:none;
+    border-bottom:2px solid #222;
+    height: 1px;
+}
+
 #sub1{
     width: 1000px;
     height: auto;
@@ -7,17 +14,141 @@
     flex-wrap: wrap;
     justify-content: space-between;
     #sub2{
-        width:75%;
+        width:77%;
         height: auto;
         // background-color: aliceblue;
         // border-right: 1px solid #ddd;
-        >div{
+        >#sub3,#sub4,#sub5,#sub6,#sub7,#sub8,#sub9,#sub10,#sub11,#sub12,#sub13,#sub14,#sub15{
             width: 100%;
             padding: 15px;
-            border-bottom: 1px solid #ddd;
+            // border-bottom: 1px solid #ddd;
         }
         #sub3{
             height: 400px;
+            display: flex;
+            justify-content: space-between;
+            #sub3Img{
+                width: 30%;
+                text-align: center;
+                height: 400px;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                img{
+                    width: 200px;
+                }
+                button{
+                    width: 130px;
+                    height: 40px;
+                    border:1px solid #009eff;
+                    border-radius: 5px;
+                    background-color: white;
+                    margin-top:10px;
+                    transition:all 0.3s ease;
+                }
+                button:hover{
+                    background-color: #e6f6ff;
+                }
+            }
+            #sub3Text{
+                width: 67%;
+                height: 360px;
+                display: flex;
+                align-content: space-between;
+                flex-wrap: wrap;
+                >p:first-of-type,p:nth-of-type(3){
+                    width: 100%;
+                }
+                >p:first-of-type>span:hover{
+                    color:#009eff;
+                }
+                >div:first-of-type>p>span{
+                    font-weight: 700;
+                }
+                >div:first-of-type>p>span:hover{
+                    color:#009eff;
+                }
+                >div:nth-of-type(2){
+                    border-top:1px solid #ddd;
+                    border-bottom: 1px solid #ddd;
+                    width: 100%;
+                    height: 40px;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    >button:first-child{
+                        background-color: #009eff;
+                        border:none;
+                        border-radius: 5px;
+                        font-weight: 700;
+                        width: 40px;
+                        height: 20px;
+                    }
+                    >button:nth-of-type(2){
+                        border:none;
+                        background-color: white;
+                        position: absolute;
+                        right: 0;
+                    }
+                    >span:hover{
+                        color: #009eff;
+                    }
+                }
+                #Sub3Price{
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    height: 70px;
+                    >div:first-child{
+                        width: 30%;
+                        height: 70px;
+                        border:1px solid #ddd;
+                        border-left: none;
+                        background-color: #eff6fa;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    >div:nth-of-type(2){
+                        width: 70%;
+                        height: 70px;
+                        border:1px solid #ddd;
+                        border-right: none;
+                        >div{
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            >p{
+                                padding: 7px;
+                            }
+                        }
+                    }
+                }
+                >#sub3Button{
+                    display: flex;
+                    justify-content: end;
+                    width: 100%;
+                    button{
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 5px;
+                        border: 1px solid #ddd;
+                        background-color: white;
+                        margin-left: 5px;
+                    }
+                    button:last-child{
+                        width: 100px;
+                        height: 45px;
+                        border-radius: 5px;
+                        border: none;
+                        background-color: #009eff;
+                        font-size: 16px;
+                        color: white;
+                        font-family: 'KoPubWorldDotum';
+                        font-weight: 700;
+                    }
+                }
+
+            }
         }
         #sub4{
             width: 98%;
@@ -26,6 +157,7 @@
             height: 130px;
             display: flex;
             flex-wrap: wrap;
+            margin-bottom: 30px;
             table:nth-of-type(1){
                 width: 40%;
                 height: 90%;
@@ -40,22 +172,67 @@
             }
         }
         #sub5{
-            height: 300px;
+            #sub5Up{
+                display: none;
+                top:540px;
+            }
         }
         #sub6{
-            height: 300px;
+            #sub6Up{
+                display: none;
+                top:1170px;
+            }
+        }
+        #sub6,#sub5,#sub9,#sub10{
+            height: 265px;
+            margin-bottom: 50px;
+            position: relative;
+            .wrap{
+                overflow: hidden;
+                height: 215px;
+            }
+            #textBox2,#textBox1,#textBox3,#textBox4{
+                line-height: 180%;
+                padding: 20px 0px;
+            }
+            button{
+                position: absolute;
+                top:265px;
+                right: 0px;
+                margin-right: 20px;
+                border: 0px solid black;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                img{
+                    width: 15px;
+                    height: auto;
+                }
+            }
         }
         #sub7{
             height: 400px;
         }
         #sub8{
             height: 300px;
+            >.sellbox2{
+                >div{
+                    text-align: left;
+                    margin-left: 20px;
+                }
+            }
         }
         #sub9{
-            height: 300px;
+            #sub9Up{
+                opacity: 0;
+                top:390px;
+            }
         }
         #sub10{
-            height: 300px;
+            #sub10Up{
+                opacity: 0;
+                top:790px;
+            }
         }
         #sub11{
             height: 300px;
@@ -65,12 +242,21 @@
         }
         #sub13{
             height: 300px;
+            .blackhr{
+                margin-top: -20px;
+            }
         }
-        #sub14{
+        #sub14,#sub15{
             height: 600px;
+            .blackhr{
+                margin-top: -30px;
+            }
+        }
+        #sub8,#sub13,#sub14,#sub15{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+            margin-bottom: 30px;
             p{
                 width: 100%;
                 height: 40px;
@@ -78,9 +264,10 @@
             .blackhr{
                 width: 100%;
                 border:none;
-                border-bottom:1px solid black;
+                border-bottom:2px solid #222;
+                height: 1px;
             }
-            .sellbox{
+            .sellbox,.sellbox1,.sellbox1_1,.sellbox2{
                 width: 20%;
                 text-align: center;
                 img{
@@ -88,14 +275,11 @@
                     border:1px solid #ddd;
                 }
                 h4,h6{
-                    width: 90%;
+                    width: 85%;
                     text-align: left;
                     padding-left: 15%;
                 }
             }
-        }
-        #sub15{
-            height: 600px;
         }
     }
     #nav{
