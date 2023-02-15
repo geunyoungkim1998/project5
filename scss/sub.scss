@@ -138,11 +138,15 @@
                         background-color: white;
                         margin-left: 5px;
                         text-align: center;
+                        transition:all 0.2s ease;
                         img{
                             width: 20px;
                             height: 20px;
                             opacity: 0.7;
                         }
+                    }
+                    button:hover{
+                        background-color: #eee;
                     }
                     button:last-child{
                         width: 100px;
@@ -154,6 +158,9 @@
                         color: white;
                         font-family: 'KoPubWorldDotum';
                         font-weight: 700;
+                    }
+                    button:last-child:hover{
+                        background-color: #0c8ad8;
                     }
                 }
 
