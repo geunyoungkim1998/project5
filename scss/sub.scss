@@ -89,6 +89,9 @@
                         position: absolute;
                         right: 0;
                     }
+                    >span{
+                        transition:0.1s all ease;
+                    }
                     >span:hover{
                         color: #009eff;
                     }
@@ -134,6 +137,12 @@
                         border: 1px solid #ddd;
                         background-color: white;
                         margin-left: 5px;
+                        text-align: center;
+                        img{
+                            width: 20px;
+                            height: 20px;
+                            opacity: 0.7;
+                        }
                     }
                     button:last-child{
                         width: 100px;
