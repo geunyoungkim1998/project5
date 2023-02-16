@@ -149,8 +149,8 @@
                     <div id="textBox1" class="koPubB12">
                     </div>
                 </div>
-                <button class="koPubBl14" id="sub5Down">펼쳐보기<img src="img/down.png" alt="down"> </button>
-                <button class="koPubBl14" id="sub5Up">접기<img src="img/up.png" alt="down"> </button>
+                <button class="koPubBl14" id="sub5Down">펼쳐보기&nbsp;<img src="img/down.png" alt="down"> </button>
+                <button class="koPubBl14" id="sub5Up">접기&nbsp;<img src="img/up.png" alt="down"> </button>
             </div>
             
             <!-- 출판사 서평 -->
@@ -160,8 +160,8 @@
                 <div class="wrap">
                     <div id="textBox2" class="koPubB12"></div>
                 </div>
-                <button class="koPubBl14" id="sub6Down">펼쳐보기<img src="img/down.png" alt="down"> </button>
-                <button class="koPubBl14" id="sub6Up">접기<img src="img/up.png" alt="down"> </button>
+                <button class="koPubBl14" id="sub6Down">펼쳐보기&nbsp;<img src="img/down.png" alt="down"> </button>
+                <button class="koPubBl14" id="sub6Up">접기&nbsp;<img src="img/up.png" alt="down"> </button>
             </div>
 
             <!-- 저자 프로필 -->
@@ -227,8 +227,8 @@
                 <div class="wrap">
                     <div id="textBox3" class="koPubB12"></div>
                 </div>
-                <button class="koPubBl14" id="sub9Down">펼쳐보기<img src="img/down.png" alt="down"> </button>
-                <button class="koPubBl14" id="sub9Up">접기<img src="img/up.png" alt="down"> </button>
+                <button class="koPubBl14" id="sub9Down">펼쳐보기&nbsp;<img src="img/down.png" alt="down"> </button>
+                <button class="koPubBl14" id="sub9Up">접기&nbsp;<img src="img/up.png" alt="down"> </button>
             </div>
 
             <!-- 목차 -->
@@ -238,8 +238,8 @@
                 <div class="wrap">
                     <div id="textBox4" class="koPubB12"></div>
                 </div>
-                <button class="koPubBl14" id="sub10Down">펼쳐보기<img src="img/down.png" alt="down"> </button>
-                <button class="koPubBl14" id="sub10Up">접기<img src="img/up.png" alt="down"> </button>
+                <button class="koPubBl14" id="sub10Down">펼쳐보기&nbsp;<img src="img/down.png" alt="down"> </button>
+                <button class="koPubBl14" id="sub10Up">접기&nbsp;<img src="img/up.png" alt="down"> </button>
             </div>
 
             <!-- 리뷰 -->
@@ -261,20 +261,26 @@
                     <p>1,965명이 평가함</p>
                 </div>
                 <div id="sub11Text">
-                    <p>이 책을 평가해주세요!</p>
-                    <div class="koPubG16">
-                        <span> ★ </span> 
-                        <span> ★ </span> 
-                        <span> ★ </span> 
-                        <span> ★ </span> 
-                        <span> ★ </span>
+                    <p class="koPubB14" id="pyeong">이 책을 평가해주세요!</p>
+                    <div id="mal" class="koPubW14">
+                        <div id="mal1">별로예요</div>
+                        <div id="mal2">그저 그래요</div>
+                        <div id="mal3">보통이에요</div>
+                        <div id="mal4">좋아요</div>
+                        <div id="mal5">최고예요</div>
                     </div>
-                    <textarea name="" id="" cols="30" rows="10">
-                    </textarea>
+                    <div class="koPubG16" id="fivestars">
+                        <div id="starone"> ★ </div> 
+                        <div id="startwo"> ★ </div> 
+                        <div id="starthree"> ★ </div> 
+                        <div id="starfour"> ★ </div> 
+                        <div id="starfive"> ★ </div>
+                    </div>
+                    <textarea onclick="this.value='';">리뷰 작성 시 광고 및 욕설, 비속어나 타인을 비방하는 문구를 사용하시면 비공개될 수 있습니다.</textarea>
                     <div>
-                        <button class="koPubG12">리뷰 작성 유의사항</button>
+                        <button class="koPubG12"><img src="img/caution.png" alt="cau">&nbsp;&nbsp;&nbsp;리뷰 작성 유의사항</button>
                         <div class="koPubG12">
-                            <input type="checkbox" class="koPubG12">스포일러가 있습니다.
+                            <input type="checkbox" class="koPubG12">&nbsp;&nbsp;스포일러가 있습니다.&nbsp;
                             <button class="koPubW12">리뷰 남기기</button>
                         </div>
                     </div>
@@ -283,7 +289,19 @@
 
             <!-- 구매자 -->
             <div id="sub12">
-                
+                <div>
+                    <div>
+                        <button class="koPubB14">구매자 294</button>
+                        <button class="koPubB14">전체 306</button>
+                    </div>
+                    <div class="koPubB12">
+                        <button class="koPubB12">최신순</button> | 
+                        <button class="koPubB12">공감순</button> | 
+                        <button class="koPubB12">별점 높은순</button> | 
+                        <button class="koPubB12">별점 낮은순</button>
+                    </div>
+                </div>
+                <hr>
             </div>
 
             <!-- 앤디위어우주 3부작 -->

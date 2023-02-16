@@ -137,3 +137,48 @@ for (var i=0; i<search.length; i++){
         });
 }
 });
+
+$(function(){
+    $("#starone,#startwo,#starthree,#starfour,#starfive").hover(function(){
+        $(this).css({"color":"tomato"});
+        $(this).prevAll().css({"color":"tomato"});
+    },function(){
+        $(this).css({"color":"#ddd"});
+        $(this).prevAll().css({"color":"#ddd"});
+    });
+    $("#starone").hover(function(){
+        $("#mal1").css({opacity:1});
+        $("#pyeong").css({opacity:0});
+    },function(){
+        $("#mal1").css({opacity:0});
+        $("#pyeong").css({opacity:1});
+    });
+    $("#startwo").hover(function(){
+        $("#mal2").css({opacity:1});
+        $("#pyeong").css({opacity:0});
+    },function(){
+        $("#mal2").css({opacity:0});
+        $("#pyeong").css({opacity:1});
+    });
+    $("#starthree").hover(function(){
+        $("#mal3").css({opacity:1});
+        $("#pyeong").css({opacity:0});
+    },function(){
+        $("#mal3").css({opacity:0});
+        $("#pyeong").css({opacity:1});
+    });
+    $("#starfour").hover(function(){
+        $("#mal4").css({opacity:1});
+        $("#pyeong").css({opacity:0});
+    },function(){
+        $("#mal4").css({opacity:0});
+        $("#pyeong").css({opacity:1});
+    });
+    $("#starfive").hover(function(){
+        $("#mal5").css({opacity:1});
+        $("#pyeong").css({opacity:0});
+    },function(){
+        $("#mal5").css({opacity:0});
+        $("#pyeong").css({opacity:1});
+    });
+});
