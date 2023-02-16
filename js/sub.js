@@ -1,17 +1,17 @@
-// $(function () {
-//     $.get("./../text/text1.txt", function (data) {
-//       $("#textBox1").html(data);
-//     });
-//     $.get("./../text/text2.txt", function (data) {
-//         $("#textBox2").html(data);
-//     });
-//     $.get("./../text/text3.txt", function (data) {
-//         $("#textBox3").html(data);
-//     });
-//     $.get("./../text/text4.txt", function (data) {
-//         $("#textBox4").html(data);
-//     });
-// });
+$(function () {
+    $.get("./text/text1.txt", function (data) {
+      $("#textBox1").html(data);
+    });
+    $.get("./text/text2.txt", function (data) {
+        $("#textBox2").html(data);
+    });
+    $.get("./text/text3.txt", function (data) {
+        $("#textBox3").html(data);
+    });
+    $.get("./text/text4.txt", function (data) {
+        $("#textBox4").html(data);
+    });
+});
 
 $(function(){
     var search=["프로젝트 헤일메리"];
