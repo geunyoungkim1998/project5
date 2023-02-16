@@ -114,6 +114,13 @@ ul, li, ol {
   font-weight: 700;
 }
 
+.koPubRd12 {
+  font-family: "KoPubWorldDotum";
+  font-size: 12px;
+  color: #009eff;
+  font-weight: 700;
+}
+
 .koPubW14 {
   font-family: "KoPubWorldDotum";
   font-size: 14px;
