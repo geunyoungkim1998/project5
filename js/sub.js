@@ -1,14 +1,14 @@
 $(function () {
-    $.get("./../text/text1.txt", function (data) {
+    $.get("../text/text1.txt", function (data) {
       $("#textBox1").html(data);
     });
-    $.get("./../text/text2.txt", function (data) {
+    $.get("../text/text2.txt", function (data) {
         $("#textBox2").html(data);
     });
-    $.get("./../text/text3.txt", function (data) {
+    $.get("../text/text3.txt", function (data) {
         $("#textBox3").html(data);
     });
-    $.get("./../text/text4.txt", function (data) {
+    $.get("../text/text4.txt", function (data) {
         $("#textBox4").html(data);
     });
 });
@@ -33,25 +33,25 @@ for (var i=0; i<search.length; i++){
 $(function(){
     $("#sub5Down").click(function(){
         $("#sub5>.wrap,#sub5").css({"height":"auto"});
-        $(this).css({"display":"none"});
-        $("#sub5Up").css({"display":"block"});
+        $(this).css({"opacity":"0"});
+        $("#sub5Up").css({"opacity":"1"});
     });
     $("#sub5Up").click(function(){
         $("#sub5").css({"height":"265px"});
         $("#sub5>.wrap").css({"height":"215px"});
-        $(this).css({"display":"none"});
-        $("#sub5Down").css({"display":"block"});
+        $(this).css({"opacity":"0"});
+        $("#sub5Down").css({"opacity":"1"});
     });
     $("#sub6Down").click(function(){
         $("#sub6>.wrap,#sub6").css({"height":"auto"});
-        $(this).css({"display":"none"});
-        $("#sub6Up").css({"display":"block"});
+        $(this).css({"opacity":"0"});
+        $("#sub6Up").css({"opacity":"1"});
     });
     $("#sub6Up").click(function(){
         $("#sub6").css({"height":"265px"});
         $("#sub6>.wrap").css({"height":"215px"});
-        $(this).css({"display":"none"});
-        $("#sub6Down").css({"display":"block"});
+        $(this).css({"opacity":"0"});
+        $("#sub6Down").css({"opacity":"1"});
     });
     $("#sub9Down").click(function(){
         $("#sub9>.wrap,#sub9").css({"height":"auto"});
@@ -75,11 +75,21 @@ $(function(){
         $(this).css({"opacity":"0"});
         $("#sub10Down").css({"opacity":"1"});
     });
+    // $("#sec5>button:nth-of-type(1),#sec6>button:nth-of-type(1),#sec9>button:nth-of-type(1),#sec10>button:nth-of-type(1)").click(function(){
+    //     $(this).siblings(".wrap").css({"height":"auto"});
+    //     $(this).closest().css({"height":"auto"});
+    //     $(this).css({"opacity":"0"});
+    //     $("#sec5>button:nth-of-type(2),#sec6>button:nth-of-type(2),#sec9>button:nth-of-type(2),#sec10>button:nth-of-type(2)").css({"opacity":"1"});
+    // });
+    // $("#sec5>button:nth-of-type(2),#sec6>button:nth-of-type(2),#sec9>button:nth-of-type(2),#sec10>button:nth-of-type(2)").click(function(){
+    //     $(this).siblings(".wrap").css({"height":"215px"});
+    //     $(this).closest().css({"height":"265px"});
+    //     $(this).css({"opacity":"0"});
+    //     $("#sec5>button:nth-of-type(1),#sec6>button:nth-of-type(1),#sec9>button:nth-of-type(1),#sec10>button:nth-of-type(1)").css({"opacity":"1"});
+    // });
 });
 
 $(function(){
-    $("#sec5book>div>div").addClass("topbox");
-
     var search=["헤일메리","마션 스페셜","아르테미스 스페셜","체셔 크로싱"];
 for (var i=0; i<search.length; i++){
     
@@ -95,11 +105,9 @@ for (var i=0; i<search.length; i++){
             $(".sellbox2").eq(i).append("<h4 class='koPubB14'>" + '<a href="sub_book13.html">' + msg.documents[0].title + "</a>" + "</h4>");
             $(".sellbox2").eq(i).append("<div class='koPubR12'>"+"★"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"&nbsp;"+parseInt(Math.random()*1000)+"명"+"</span>"+"</div>");
         });
-}
-});
-$(function(){
-    $("#sec5book>div>div").addClass("topbox");
+}});
 
+$(function(){
     var search=["마션 스페셜","아르테미스 스페셜"];
 for (var i=0; i<search.length; i++){
     
@@ -118,8 +126,6 @@ for (var i=0; i<search.length; i++){
 }
 });
 $(function(){
-    $("#sec5book>div>div").addClass("topbox");
-
     var search=["물고기는 존재하지 않는다","불편한 편의점","팩트풀니스","지구의 끝은 온실","미드나잇 라이브러리","우리가 빛의 속도로","별의 계승자","죽여 마땅한 사람들","꿈 백화점 2","완전한 행복","지구끝의 온실","천 개의 파랑","물고기는 존재하지 않는다","세상의 마지막 기차역","칵테일, 러브","하얼빈","불편한 편의점","쿼런틴","내가 행복한 이유","가재가 노래하는"];
 for (var i=0; i<search.length; i++){
     
