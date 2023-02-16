@@ -33,25 +33,25 @@ for (var i=0; i<search.length; i++){
 $(function(){
     $("#sub5Down").click(function(){
         $("#sub5>.wrap,#sub5").css({"height":"auto"});
-        $(this).css({"display":"none"});
-        $("#sub5Up").css({"display":"block"});
+        $(this).css({"opacity":"0"});
+        $("#sub5Up").css({"opacity":"1"});
     });
     $("#sub5Up").click(function(){
         $("#sub5").css({"height":"265px"});
         $("#sub5>.wrap").css({"height":"215px"});
-        $(this).css({"display":"none"});
-        $("#sub5Down").css({"display":"block"});
+        $(this).css({"opacity":"0"});
+        $("#sub5Down").css({"opacity":"1"});
     });
     $("#sub6Down").click(function(){
         $("#sub6>.wrap,#sub6").css({"height":"auto"});
-        $(this).css({"display":"none"});
-        $("#sub6Up").css({"display":"block"});
+        $(this).css({"opacity":"0"});
+        $("#sub6Up").css({"opacity":"1"});
     });
     $("#sub6Up").click(function(){
         $("#sub6").css({"height":"265px"});
         $("#sub6>.wrap").css({"height":"215px"});
-        $(this).css({"display":"none"});
-        $("#sub6Down").css({"display":"block"});
+        $(this).css({"opacity":"0"});
+        $("#sub6Down").css({"opacity":"1"});
     });
     $("#sub9Down").click(function(){
         $("#sub9>.wrap,#sub9").css({"height":"auto"});
