@@ -1,0 +1,123 @@
+<div>
+                    <div>
+                        <button class="koPubB14">구매자 294</button>
+                        <button class="koPubB14">전체 306</button>
+                    </div>
+                    <div class="koPubB12">
+                        <button class="koPubB12">최신순</button> | 
+                        <button class="koPubB12">공감순</button> | 
+                        <button class="koPubB12">별점 높은순</button> | 
+                        <button class="koPubB12">별점 낮은순</button>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="koPubB12">
+                        <p>★★★★★</p>
+                        <div>ntr*** <button>구매자&nbsp;</button></div>
+                        <p>2023.02.15.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">시간 가는 줄 모르고 읽다가 잠을 못자고 자다가 지각할 뻔 했어요.</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p>★★★★★</p>
+                        <div>dbs*** <button>구매자&nbsp;</button></div>
+                        <p>2023.02.12.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">개인적으로 마션은 그렇게 제 취향이 아니었는데 이 작품은 정말 정말 재미있게 봤어요</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p>★★★★★</p>
+                        <div>aja*** <button>구매자&nbsp;</button></div>
+                        <p>2023.01.29.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">행복. 행복. 행복.<br>
+좋음. 좋음. 좋음.<br>
+(얼굴에서 물이 새는중)</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p>★★★★★</p>
+                        <div>mar*** <button>구매자&nbsp;</button></div>
+                        <p>2023.01.21.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">엄청난 글 잘 읽었습니다.<br>
+그 좋아하는 맥주도 못 마시고 읽어내려갔네요 ㅋㅋ.<br>
+프로젝트 헤일메리에 공감하신 분들은 한국 작가의 두번째달 도 좋아하실 듯해 추천 드립니다.</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 1</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p>★★★★★</p>
+                        <div>jys*** <button>구매자&nbsp;</button></div>
+                        <p>2023.01.12.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">이해하기 힘든 내용이 많아서 듬성듬성 읽었는데도 멈출 수가 없다.. 마지막 200페이지 정도 남았을 때는 입벌리고 읽었음. 좋음 좋음 좋음. 감동. 질문?</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p>★★★★★</p>
+                        <div>dsn*** <button>구매자&nbsp;</button></div>
+                        <p>2022.12.31.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">인류애 충전<br>
+영화도 얼른 나오면 좋겠어요</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p>★★★★★</p>
+                        <div>ntr*** <button>구매자&nbsp;</button></div>
+                        <p>2022.12.30.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">감동! 감동! 감동!</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>

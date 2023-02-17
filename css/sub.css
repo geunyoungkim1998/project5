@@ -176,9 +176,17 @@ button {
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
+#sub1 #sub2 #sub4 img {
+  width: 10px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
 #sub1 #sub2 #sub4 table:nth-of-type(1) {
   width: 40%;
   height: 90%;
+}
+#sub1 #sub2 #sub4 table:nth-of-type(1) th {
+  vertical-align: top;
 }
 #sub1 #sub2 #sub4 table:nth-of-type(2) {
   width: 60%;
@@ -470,6 +478,10 @@ button {
   resize: none;
   padding: 10px;
   text-align: left;
+  font-family: "KoPubWorldDotum";
+  font-size: 14px;
+  color: #222;
+  font-weight: 500;
 }
 #sub1 #sub2 #sub11 #sub11Text > div:nth-of-type(3) {
   width: 100%;
@@ -487,6 +499,7 @@ button {
   border: 1px solid #ddd;
   border-radius: 5px;
   position: relative;
+  transition: 0.2s all ease;
 }
 #sub1 #sub2 #sub11 #sub11Text > div:nth-of-type(3) button > img {
   width: 14px;
@@ -502,28 +515,31 @@ button {
   width: 100px;
   background-color: #009eff;
   border: none;
+  transition: 0.2s all ease;
 }
 #sub1 #sub2 #sub11 #sub11Text > div:nth-of-type(3) > div > button:hover {
   background-color: #0c8ad8;
 }
 #sub1 #sub2 #sub12 {
-  height: 800px;
+  height: 940px;
+  margin-bottom: 50px;
+  overflow: hidden;
 }
-#sub1 #sub2 #sub12 div:nth-of-type(1) {
+#sub1 #sub2 #sub12 > div:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
 }
-#sub1 #sub2 #sub12 div:nth-of-type(1) > div > button {
+#sub1 #sub2 #sub12 > div:nth-of-type(1) > div > button {
   width: auto;
   height: 40px;
   padding: 3px 5px;
   border: none;
   background-color: white;
 }
-#sub1 #sub2 #sub12 div:nth-of-type(1) > div > button:not(:first-child) {
+#sub1 #sub2 #sub12 > div:nth-of-type(1) > div > button:not(:first-child) {
   opacity: 0.5;
 }
-#sub1 #sub2 #sub12 div:nth-of-type(1) > div:nth-of-type(1) > button:first-child {
+#sub1 #sub2 #sub12 > div:nth-of-type(1) > div:nth-of-type(1) > button:first-child {
   border-bottom: 1px solid black;
 }
 #sub1 #sub2 #sub12 hr {
@@ -531,6 +547,85 @@ button {
   width: 100%;
   height: 1px;
   border-bottom: 1px solid #ddd;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(1) {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(1) > p {
+  width: 100%;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(1) > p:first-child {
+  color: tomato;
+  font-size: 14px;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(1) > div:nth-of-type(1) {
+  width: 100%;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(1) > div:nth-of-type(1) > button {
+  background-color: #666;
+  color: white;
+  font-size: 10px;
+  border-radius: 5px;
+  width: 40px;
+  height: 20px;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(1) > div:nth-of-type(2) {
+  width: 60%;
+  padding: 0px;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(1) > div:nth-of-type(2) button {
+  width: 30%;
+  height: 25px;
+  background-color: white;
+  border: none;
+  font-size: 12px;
+  text-align: left;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(1) > div:nth-of-type(2) button:nth-of-type(2) {
+  text-align: center;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(1) > div:nth-of-type(2) button:hover {
+  font-weight: 700;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(2) {
+  width: 60%;
+  padding: 20px 0px;
+  font-size: 13px;
+  margin-left: -60px;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(3) {
+  display: flex;
+  align-items: end;
+  width: 15%;
+  padding: 20px 0px;
+  justify-content: end;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(3) img {
+  width: 10px;
+  vertical-align: center;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(3) button {
+  width: 50px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-family: "KoPubWorldDotum";
+  transition: 0.2s all ease;
+}
+#sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(3) button:hover {
+  background-color: #eee;
 }
 #sub1 #sub2 #sub13 {
   height: 300px;
@@ -596,6 +691,10 @@ button {
 #sub1 #nav table tr:not(:first-child) > td:first-child {
   font-weight: bold;
   width: 17%;
+  cursor: pointer;
+}
+#sub1 #nav table td {
+  cursor: pointer;
 }
 #sub1 #nav table tr, #sub1 #nav table th, #sub1 #nav table td {
   padding: 5px 0px;

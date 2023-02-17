@@ -11,6 +11,9 @@ $(function () {
     $.get("./text/text4.txt", function (data) {
         $("#textBox4").html(data);
     });
+    $.get("./text/text5.txt", function (data) {
+        $("#sub12").html(data);
+    });
 });
 
 $(function(){
