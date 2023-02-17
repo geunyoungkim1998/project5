@@ -10,7 +10,7 @@ button{
     cursor: pointer;
 }
 .height12{
-    height: 300px;
+    height: 400px;
 }
 .sub12text{
     display: block;
@@ -656,6 +656,10 @@ button{
                 height: 50px;
                 border:2px solid #ddd;
                 background-color: white;
+                transition:all 0.2s ease;
+            }
+            button:nth-of-type(1):hover{
+                background-color: #eee;
             }
             button:nth-of-type(2){
                 border: none;
@@ -669,6 +673,7 @@ button{
                 background-color: #eee;
                 padding: 20px;
                 display: none;
+                font-size:12px;
             }
         }
         #sub13{

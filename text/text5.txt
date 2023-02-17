@@ -121,3 +121,108 @@
                         <button><img src="img/thumbs-up.png" alt=""> 0</button>
                     </div>
                 </div>
+                <div>
+                    <div class="koPubB12">
+                        <p class="tenada">★★★★★</p>
+                        <div>njs*** <button>구매자&nbsp;</button></div>
+                        <p>2022.12.28.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">이건내인생작이야진짜</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p class="tenada">★★★★★</p>
+                        <div>bbb*** <button>구매자&nbsp;</button></div>
+                        <p>2022.12.12.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">과학 이야기는 넘어가고<br>재밌다.<br>다만 개인적으로는 마지막이 좀 아쉽다.</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p class="tenada">★★★★★</p>
+                        <div>ndd*** <button>구매자&nbsp;</button></div>
+                        <p>2022.12.02.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">남은 페이지 수가 줄어드는게 아쉬울 정도로 재미있었다.</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p class="tenada">★★★★★</p>
+                        <div>opo*** <button>구매자&nbsp;</button></div>
+                        <p>2022.11.27.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">감동이 있는 이야기!</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p class="tenada">★★★★★</p>
+                        <div>LJH*** <button>구매자&nbsp;</button></div>
+                        <p>2022.11.21.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">잼있다! 딱 내가 좋아하는 장르</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p class="tenada">★★★★★</p>
+                        <div>KMY*** <button>구매자&nbsp;</button></div>
+                        <p>2022.11.13.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">좋음 좋음 좋음 <br> 로키 너무 귀여워 ㅠㅠ</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="koPubB12">
+                        <p class="tenada">★★★★★</p>
+                        <div>MYB*** <button>구매자&nbsp;</button></div>
+                        <p>2022.10.16.</p>
+                        <div>
+                            <button>신고</button>·<button>차단</button>
+                        </div>
+                    </div>
+                    <div class="koPubB12">읽는 기간동안 세상이 즐거웠던 책. 오랜만에 과몰입해서 읽어 여운이 많이 남습니다.</div>
+                    <div>
+                        <button><img src="img/speech-bubble.png" alt="s"> 댓글</button>
+                        <button><img src="img/thumbs-up.png" alt=""> 0</button>
+                    </div>
+                </div>

@@ -209,3 +209,9 @@ $(function(){
         $("#Qtext").slideToggle();
     });
 });
+
+$(function(){
+    $("#sub12plus").click(function(){
+        $("#sub12").css({"height":"1745px"});
+    });
+});
