@@ -60,6 +60,12 @@ ul,li,ol{
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Tenada';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .koPubB14{
     font-family: 'KoPubWorldDotum';
@@ -189,6 +195,10 @@ ul,li,ol{
     font-family: "GangwonEduPowerExtraBoldA";
     font-size: 15px;
     color: #eee;
+}
+.tenada{
+    font-family: 'Tenada';
+    color: tomato;
 }
 
 hr{

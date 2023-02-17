@@ -158,7 +158,7 @@ $(function(){
                 $(".box1").eq(i).append("<img src="+msg.documents[0].thumbnail+">");
                 $(".box1").eq(i).append("<h4>" + '<a href="sub_book13.html">' + msg.documents[0].title + "</a>" + "</h4>");
                 $(".box1").eq(i).append("<h6>" + msg.documents[0].authors + "</h6>");
-                $(".box1").eq(i).append("<div class='koPubR12'>"+"★"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"("+parseInt(Math.random()*1000)+")"+"</span>"+"</div>");
+                $(".box1").eq(i).append("<div class='koPubR12'>"+"<span class='tenada'>"+"★"+"</span>"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"("+parseInt(Math.random()*1000)+")"+"</span>"+"</div>");
             });
     }
 });
@@ -174,7 +174,7 @@ $.ajax({
             $(".box2").eq(i).append('<a href="#">' + "<img src='" + msg.documents[i].thumbnail + "'/>" + "</a>");
             $(".box2").eq(i).append("<h4>" + '<a href="sub_book13.html">' + msg.documents[i].title + "</a>" + "</h4>");
             $(".box2").eq(i).append("<h6>" + msg.documents[i].authors + "</h6>");
-            $(".box2").eq(i).append("<div class='koPubR12'>"+"★"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"("+parseInt(Math.random()*1000)+")"+"</span>"+"</div>");
+            $(".box2").eq(i).append("<div class='koPubR12'>"+"<span class='tenada'>"+"★"+"</span>"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"("+parseInt(Math.random()*1000)+")"+"</span>"+"</div>");
         }
     });
 
@@ -195,7 +195,7 @@ for (var i=0; i<search.length; i++){
         .done(function (msg) {
             $(".topbox").eq(i).append("<img src="+msg.documents[0].thumbnail+">");
             $(".topbox").eq(i).append("<div class='koPubB14'>"+(i+1)+"</div>");
-            $(".topbox").eq(i).append("<div class='koPubB14'>"+msg.documents[0].title+"<div class='koPubG12'>"+msg.documents[0].authors.slice(0,2)+"</div>"+"<div class='koPubR12'>"+"★"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"("+parseInt(Math.random()*1000)+")"+"</span>"+"</div>"+"</div>");
+            $(".topbox").eq(i).append("<div class='koPubB14'>"+msg.documents[0].title+"<div class='koPubG12'>"+msg.documents[0].authors.slice(0,2)+"</div>"+"<div class='koPubR12'>"+"<span class='tenada'>"+"★"+"</span>"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"("+parseInt(Math.random()*1000)+")"+"</span>"+"</div>"+"</div>");
         });
 }
 });
@@ -215,7 +215,7 @@ for (var i=0; i<search.length; i++){
         .done(function (msg) {
             $(".bestbox").eq(i).append("<img src="+msg.documents[0].thumbnail+">");
             $(".bestbox").eq(i).append("<div class='koPubB14'>"+(i+1)+"</div>");
-            $(".bestbox").eq(i).append("<div class='koPubB14'>"+msg.documents[0].title+"<div class='koPubG12'>"+msg.documents[0].authors.slice(0,2)+"</div>"+"<div class='koPubR12'>"+"★"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"("+parseInt(Math.random()*1000)+")"+"</span>"+"</div>"+"</div>");
+            $(".bestbox").eq(i).append("<div class='koPubB14'>"+msg.documents[0].title+"<div class='koPubG12'>"+msg.documents[0].authors.slice(0,2)+"</div>"+"<div class='koPubR12'>"+"<span class='tenada'>"+"★"+"</span>"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"("+parseInt(Math.random()*1000)+")"+"</span>"+"</div>"+"</div>");
         });
 }
 });

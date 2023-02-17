@@ -40,6 +40,10 @@ $(function(){
         $("#sub5Up").css({"opacity":"1"});
     });
     $("#sub5Up").click(function(){
+        var $offset = $('#sub5').offset().top;
+        $('html,body').animate({	
+            scrollTop:$offset
+            },500);
         $("#sub5").css({"height":"265px"});
         $("#sub5>.wrap").css({"height":"215px"});
         $(this).css({"opacity":"0"});
@@ -51,6 +55,10 @@ $(function(){
         $("#sub6Up").css({"opacity":"1"});
     });
     $("#sub6Up").click(function(){
+        var $offset2 = $('#sub6').offset().top;
+        $('html,body').animate({	
+            scrollTop:$offset2
+            },500);
         $("#sub6").css({"height":"265px"});
         $("#sub6>.wrap").css({"height":"215px"});
         $(this).css({"opacity":"0"});
@@ -62,6 +70,10 @@ $(function(){
         $("#sub9Up").css({"opacity":"1"});
     });
     $("#sub9Up").click(function(){
+        var $offset3 = $('#sub9').offset().top;
+        $('html,body').animate({	
+            scrollTop:$offset3
+            },500);
         $("#sub9").css({"height":"265px"});
         $("#sub9>.wrap").css({"height":"215px"});
         $(this).css({"opacity":"0"});
@@ -73,6 +85,10 @@ $(function(){
         $("#sub10Up").css({"opacity":"1"});
     });
     $("#sub10Up").click(function(){
+        var $offset4 = $('#sub10').offset().top;
+        $('html,body').animate({	
+            scrollTop:$offset4
+            },500);
         $("#sub10").css({"height":"265px"});
         $("#sub10>.wrap").css({"height":"215px"});
         $(this).css({"opacity":"0"});
@@ -96,7 +112,7 @@ for (var i=0; i<search.length; i++){
         .done(function (msg) {
             $(".sellbox2").eq(i).append("<img src="+msg.documents[0].thumbnail+">");
             $(".sellbox2").eq(i).append("<h4 class='koPubB14'>" + '<a href="sub_book13.html">' + msg.documents[0].title + "</a>" + "</h4>");
-            $(".sellbox2").eq(i).append("<div class='koPubR12'>"+"★"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"&nbsp;"+parseInt(Math.random()*1000)+"명"+"</span>"+"</div>");
+            $(".sellbox2").eq(i).append("<div class='koPubR12'>"+"<span class='tenada'>"+"★"+"</span>"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"&nbsp;"+parseInt(Math.random()*1000)+"명"+"</span>"+"</div>");
         });
 }
 });
