@@ -526,10 +526,7 @@ button {
   width: 100px;
   background-color: #009eff;
   border: none;
-  transition: 0.2s all ease;
-}
-#sub1 #sub2 #sub11 #sub11Text > div:nth-of-type(3) > div > button:hover {
-  background-color: #0c8ad8;
+  opacity: 0.5;
 }
 #sub1 #sub2 #sub12 {
   height: 905px;

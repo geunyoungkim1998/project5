@@ -530,10 +530,7 @@ button{
                         width: 100px;
                         background-color: #009eff;
                         border: none;
-                        transition:0.2s all ease;
-                    }
-                    >div>button:hover{
-                        background-color: #0c8ad8;
+                        opacity: 0.5;
                     }
                 }
             }
