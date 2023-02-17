@@ -336,13 +336,14 @@ button {
   top: 790px;
 }
 #sub1 #sub2 #sub11 {
-  height: 340px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 40px;
   justify-content: space-between;
 }
 #sub1 #sub2 #sub11 #sub11Star {
+  margin-top: 40px;
   width: 15%;
   height: 100%;
   display: flex;
@@ -527,6 +528,14 @@ button {
   background-color: #009eff;
   border: none;
   opacity: 0.5;
+}
+#sub1 #sub2 #sub11 #alerttext11 {
+  width: 84%;
+  background-color: #eee;
+  padding: 20px;
+  height: auto;
+  display: none;
+  margin-left: 16%;
 }
 #sub1 #sub2 #sub12 {
   height: 905px;

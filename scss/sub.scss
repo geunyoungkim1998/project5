@@ -348,12 +348,14 @@ button{
             }
         }
         #sub11{
-            height: 340px;
+            // height: 340px;
+            height: auto;
             display: flex;
             flex-wrap: wrap;
             margin-bottom: 40px;
             justify-content: space-between;
             #sub11Star{
+                margin-top: 40px;
                 width: 15%;
                 height: 100%;
                 display: flex;
@@ -428,6 +430,7 @@ button{
             #sub11Text{
                 width: 84%;
                 height: 270px;
+                // height: auto;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
@@ -533,6 +536,14 @@ button{
                         opacity: 0.5;
                     }
                 }
+            }
+            #alerttext11{
+                width: 84%;
+                background-color: #eee;
+                padding: 20px;
+                height: auto;
+                display: none;
+                margin-left: 16%;
             }
         }
         #sub12{

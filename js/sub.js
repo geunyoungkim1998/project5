@@ -214,6 +214,11 @@ $(function(){
         $("#sub12button").toggleClass("height12");
         $("#Qtext").slideToggle();
     });
+    $("#alertbtn11").click(function(){
+        $("#alerttext11").toggleClass("sub12text");
+        $("#alerttext11").slideToggle();
+        $("#sub11").toggleClass("height12")
+    });
 });
 
 $(function(){
