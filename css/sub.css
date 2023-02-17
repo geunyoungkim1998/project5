@@ -9,6 +9,14 @@ button {
   cursor: pointer;
 }
 
+.height12 {
+  height: 300px;
+}
+
+.sub12text {
+  display: block;
+}
+
 #sub1 {
   width: 1000px;
   height: auto;
@@ -510,6 +518,9 @@ button {
 }
 #sub1 #sub2 #sub11 #sub11Text > div:nth-of-type(3) > div {
   width: 250px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 #sub1 #sub2 #sub11 #sub11Text > div:nth-of-type(3) > div > button {
   width: 100px;
@@ -521,8 +532,8 @@ button {
   background-color: #0c8ad8;
 }
 #sub1 #sub2 #sub12 {
-  height: 940px;
-  margin-bottom: 50px;
+  height: 905px;
+  margin-bottom: 10px;
   overflow: hidden;
 }
 #sub1 #sub2 #sub12 > div:nth-of-type(1) {
@@ -630,6 +641,28 @@ button {
 }
 #sub1 #sub2 #sub12 > div:not(:nth-of-type(1)) > div:nth-of-type(3) button:hover {
   background-color: #eee;
+}
+#sub1 #sub2 #sub12button {
+  margin-bottom: 40px;
+}
+#sub1 #sub2 #sub12button button:nth-of-type(1) {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #ddd;
+  background-color: white;
+}
+#sub1 #sub2 #sub12button button:nth-of-type(2) {
+  border: none;
+  background-color: white;
+  height: 20px;
+  margin: 10px 0px;
+}
+#sub1 #sub2 #sub12button div {
+  width: 100%;
+  height: auto;
+  background-color: #eee;
+  padding: 20px;
+  display: none;
 }
 #sub1 #sub2 #sub13 {
   height: 300px;

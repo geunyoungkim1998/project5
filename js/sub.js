@@ -201,3 +201,11 @@ $(function(){
         $("#pyeong").css({opacity:1});
     });
 });
+
+$(function(){
+    $("#Qbutton").click(function(){
+        $("#Qtext").toggleClass("sub12text");
+        $("#sub12button").toggleClass("height12");
+        $("#Qtext").slideToggle();
+    });
+});

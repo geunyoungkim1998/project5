@@ -9,6 +9,12 @@
 button{
     cursor: pointer;
 }
+.height12{
+    height: 300px;
+}
+.sub12text{
+    display: block;
+}
 
 #sub1{
     width: 1000px;
@@ -516,6 +522,9 @@ button{
                     }
                     >div{
                         width: 250px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
                     }
                     >div>button{
                         width: 100px;
@@ -530,8 +539,8 @@ button{
             }
         }
         #sub12{
-            height: 940px;
-            margin-bottom: 50px;
+            height: 905px;
+            margin-bottom: 10px;
             overflow: hidden;
             >div:nth-of-type(1){
                 display: flex;
@@ -638,6 +647,28 @@ button{
                         background-color: #eee;
                     }
                 }
+            }
+        }
+        #sub12button{
+            margin-bottom: 40px;
+            button:nth-of-type(1){
+                width: 100%;
+                height: 50px;
+                border:2px solid #ddd;
+                background-color: white;
+            }
+            button:nth-of-type(2){
+                border: none;
+                background-color: white;
+                height: 20px;
+                margin:10px 0px;
+            }
+            div{
+                width: 100%;
+                height: auto;
+                background-color: #eee;
+                padding: 20px;
+                display: none;
             }
         }
         #sub13{
