@@ -283,6 +283,14 @@ button {
 }
 #sub1 #sub2 #sub7 table {
   height: 130px;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+#sub1 #sub2 #sub7 table tr {
+  width: 100%;
+  display: flex;
+  align-items: start;
 }
 #sub1 #sub2 #sub7 table th {
   width: 40px;
@@ -339,7 +347,7 @@ button {
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   justify-content: space-between;
 }
 #sub1 #sub2 #sub11 #sub11Star {
