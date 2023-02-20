@@ -23,6 +23,10 @@ body > div > button {
   cursor: pointer;
 }
 
+.cursorP {
+  cursor: pointer;
+}
+
 #sec1 {
   height: 80px;
   display: flex;
@@ -67,7 +71,7 @@ body > div > button {
   border: none;
   border-bottom: 1px solid #ddd;
   position: absolute;
-  left: 15;
+  left: 15px;
   top: 150px;
   width: 410px;
 }
@@ -380,7 +384,6 @@ body > div > button {
   border-radius: 5px;
   margin-right: 6px;
   display: flex;
-  align-items: space-between;
 }
 #sec4 div > div div img {
   width: 178.3px;

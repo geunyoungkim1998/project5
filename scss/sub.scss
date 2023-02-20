@@ -15,6 +15,9 @@ button{
 .sub12text{
     display: block;
 }
+.cursorP{
+    cursor: pointer;
+}
 
 #sub1{
     width: 1000px;
@@ -25,12 +28,10 @@ button{
     #sub2{
         width:77%;
         height: auto;
-        // background-color: aliceblue;
-        // border-right: 1px solid #ddd;
         >#sub3,#sub4,#sub5,#sub6,#sub7,#sub8,#sub9,#sub10,#sub11,#sub12,#sub13,#sub14,#sub15{
             width: 100%;
             padding: 15px;
-            // border-bottom: 1px solid #ddd;
+            margin-bottom: 50px;
         }
         #sub3{
             height: 400px;
@@ -336,6 +337,22 @@ button{
         }
         #sub8{
             height: 300px;
+            margin-bottom: 40px;
+            div:first-child{
+                width: 100%;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                margin-top: -20px;
+                >p:nth-child(2){
+                    text-align: right;
+                    >span{
+                        margin: 0px 3px;
+                    }
+                }
+            }
             >.sellbox2{
                 >div{
                     text-align: left;

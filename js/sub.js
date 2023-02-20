@@ -28,7 +28,7 @@ for (var i=0; i<search.length; i++){
         headers: { Authorization: "KakaoAK 87a9e903eabc646c05a3272f6c877021"}
     })
         .done(function (msg) {
-            $("#sub3Img").eq(i).prepend("<img src="+msg.documents[0].thumbnail+">");
+            $("#sub3Img").eq(i).prepend("<img src="+msg.documents[0].thumbnail+" class='cursorP'>");
         });
 }
 });
@@ -108,7 +108,7 @@ for (var i=0; i<search.length; i++){
         headers: { Authorization: "KakaoAK 87a9e903eabc646c05a3272f6c877021"}
     })
         .done(function (msg) {
-            $(".sellbox2").eq(i).append("<img src="+msg.documents[0].thumbnail+">");
+            $(".sellbox2").eq(i).append("<img src="+msg.documents[0].thumbnail+" class='cursorP'>");
             $(".sellbox2").eq(i).append("<h4 class='koPubB14'>" + '<a href="sub_book13.html">' + msg.documents[0].title + "</a>" + "</h4>");
             $(".sellbox2").eq(i).append("<div class='koPubR12'>"+"<span class='tenada'>"+"★"+"</span>"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"&nbsp;"+parseInt(Math.random()*1000)+"명"+"</span>"+"</div>");
         });
@@ -133,7 +133,7 @@ $(function(){
                 headers: { Authorization: "KakaoAK 87a9e903eabc646c05a3272f6c877021"}
             })
                 .done(function (msg) {
-                    $(".sellbox2").eq(i).append("<img src="+msg.documents[0].thumbnail+">");
+                    $(".sellbox2").eq(i).append("<img src="+msg.documents[0].thumbnail+" class='cursorP'>");
                     $(".sellbox2").eq(i).append("<h4 class='koPubB14'>" + '<a href="sub_book13.html">' + msg.documents[0].title + "</a>" + "</h4>");
                     $(".sellbox2").eq(i).append("<div class='koPubR12'>"+"<span class='tenada'>"+"★"+"</span>"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"&nbsp;"+parseInt(Math.random()*1000)+"명"+"</span>"+"</div>");
                 });
@@ -156,7 +156,7 @@ $(function(){
                 headers: { Authorization: "KakaoAK 87a9e903eabc646c05a3272f6c877021"}
             })
                 .done(function (msg) {
-                    $(".sellbox2").eq(i).append("<img src="+msg.documents[0].thumbnail+">");
+                    $(".sellbox2").eq(i).append("<img src="+msg.documents[0].thumbnail+" class='cursorP'>");
                     $(".sellbox2").eq(i).append("<h4 class='koPubB14'>" + '<a href="sub_book13.html">' + msg.documents[0].title + "</a>" + "</h4>");
                     $(".sellbox2").eq(i).append("<div class='koPubR12'>"+"<span class='tenada'>"+"★"+"</span>"+parseInt(Math.random()*10/2+5)+"."+parseInt(Math.random()*10)+"&nbsp;"+"<span class='koPubB12'>"+"&nbsp;"+parseInt(Math.random()*1000)+"명"+"</span>"+"</div>");
                 });
@@ -176,7 +176,7 @@ for (var i=0; i<search.length; i++){
         headers: { Authorization: "KakaoAK 87a9e903eabc646c05a3272f6c877021"}
     })
         .done(function (msg) {
-            $(".sellbox1").eq(i).append("<img src="+msg.documents[0].thumbnail+">");
+            $(".sellbox1").eq(i).append("<img src="+msg.documents[0].thumbnail+" class='cursorP'>");
             $(".sellbox1").eq(i).append("<h4 class='koPubB14'>" + '<a href="sub_book13.html">' + msg.documents[0].title + "</a>" + "</h4>");
             $(".sellbox1").eq(i).append("<h6 class='koPubB11'>" + msg.documents[0].authors + "</h6>");
         });
@@ -194,7 +194,7 @@ for (var i=0; i<search.length; i++){
         headers: { Authorization: "KakaoAK 87a9e903eabc646c05a3272f6c877021"}
     })
         .done(function (msg) {
-            $(".sellbox").eq(i).append("<img src="+msg.documents[0].thumbnail+">");
+            $(".sellbox").eq(i).append("<img src="+msg.documents[0].thumbnail+" class='cursorP'>");
             $(".sellbox").eq(i).append("<h4 class='koPubB14'>" + '<a href="sub_book13.html">' + msg.documents[0].title + "</a>" + "</h4>");
             $(".sellbox").eq(i).append("<h6 class='koPubB11'>" + msg.documents[0].authors + "</h6>");
         });

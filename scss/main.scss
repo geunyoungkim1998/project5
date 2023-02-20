@@ -21,6 +21,9 @@ body>div:not(:nth-of-type(2)){
 body>div>button{
     cursor: pointer;
 }
+.cursorP{
+    cursor: pointer;
+}
 
 #sec1{
     height: 80px;
@@ -64,7 +67,7 @@ body>div>button{
                     border:none;
                     border-bottom: 1px solid #ddd;
                     position: absolute;
-                    left: 15;
+                    left: 15px;
                     top:150px;
                     width: 410px;
                 }
@@ -406,10 +409,8 @@ body>div>button{
                 width:178.3px;
                 height: 100%;
                 border-radius: 5px;
-                // background-color: #009eff;
                 margin-right: 6px;
                 display: flex;
-                align-items: space-between;
                 img{
                     width: 178.3px;
                     border-radius: 5px;
