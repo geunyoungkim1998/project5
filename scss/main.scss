@@ -411,6 +411,35 @@ body>div>button{
                 border-radius: 5px;
                 margin-right: 6px;
                 display: flex;
+                position: relative;
+                >.borrow{
+                    position: absolute;
+                    left: 1px;
+                    top:227px;
+                    width: 30px;
+                    height: 30px;
+                    background-color: #aaa;
+                    color: white;
+                    border-radius: 0px 5px 0px 0px;
+                    font-size: 12px;
+                    text-align: center;
+                    line-height: 245%;
+                    font-family: 'KoPubWorldDotum';
+                }
+                >.tenP{
+                    position: absolute;
+                    left: 1px;
+                    top:227px;
+                    width: 30px;
+                    height: 30px;
+                    background-color: tomato;
+                    color: white;
+                    border-radius: 0px 5px 0px 0px;
+                    font-size: 12px;
+                    text-align: center;
+                    line-height: 245%;
+                    font-family: 'KoPubWorldDotum';
+                }
                 img{
                     width: 178.3px;
                     border-radius: 5px;
@@ -548,7 +577,36 @@ body>div>button{
                 border-radius: 5px;
                 // background-color: #009eff;
                 margin-right: 6px;
-            }
+                position: relative;
+                >.borrow{
+                    position: absolute;
+                    left: 1px;
+                    top:227px;
+                    width: 30px;
+                    height: 30px;
+                    background-color: #aaa;
+                    color: white;
+                    border-radius: 0px 5px 0px 0px;
+                    font-size: 12px;
+                    text-align: center;
+                    line-height: 245%;
+                    font-family: 'KoPubWorldDotum';
+                }
+                >.tenP{
+                    position: absolute;
+                    left: 1px;
+                    top:227px;
+                    width: 30px;
+                    height: 30px;
+                    background-color: tomato;
+                    color: white;
+                    border-radius: 0px 5px 0px 0px;
+                    font-size: 12px;
+                    text-align: center;
+                    line-height: 245%;
+                    font-family: 'KoPubWorldDotum';
+                }
+            } 
             img{
                 width: 178.3px;
                 border-radius: 5px;

@@ -384,6 +384,35 @@ body > div > button {
   border-radius: 5px;
   margin-right: 6px;
   display: flex;
+  position: relative;
+}
+#sec4 div > div div > .borrow {
+  position: absolute;
+  left: 1px;
+  top: 227px;
+  width: 30px;
+  height: 30px;
+  background-color: #aaa;
+  color: white;
+  border-radius: 0px 5px 0px 0px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 245%;
+  font-family: "KoPubWorldDotum";
+}
+#sec4 div > div div > .tenP {
+  position: absolute;
+  left: 1px;
+  top: 227px;
+  width: 30px;
+  height: 30px;
+  background-color: tomato;
+  color: white;
+  border-radius: 0px 5px 0px 0px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 245%;
+  font-family: "KoPubWorldDotum";
 }
 #sec4 div > div div img {
   width: 178.3px;
@@ -520,6 +549,35 @@ body > div > button {
   height: 100%;
   border-radius: 5px;
   margin-right: 6px;
+  position: relative;
+}
+#sec6 div:nth-of-type(2) > div div > .borrow {
+  position: absolute;
+  left: 1px;
+  top: 227px;
+  width: 30px;
+  height: 30px;
+  background-color: #aaa;
+  color: white;
+  border-radius: 0px 5px 0px 0px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 245%;
+  font-family: "KoPubWorldDotum";
+}
+#sec6 div:nth-of-type(2) > div div > .tenP {
+  position: absolute;
+  left: 1px;
+  top: 227px;
+  width: 30px;
+  height: 30px;
+  background-color: tomato;
+  color: white;
+  border-radius: 0px 5px 0px 0px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 245%;
+  font-family: "KoPubWorldDotum";
 }
 #sec6 div:nth-of-type(2) > div img {
   width: 178.3px;
