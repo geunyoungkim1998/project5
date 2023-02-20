@@ -121,6 +121,7 @@ $(function(){
         $("#kangBtn").css({"border-bottom":"1px solid #ddd"});
         $("#authorName").html("앤디 위어");
         $("#authorTmi").html("<tr><th>국적</th><td>미국</td></tr><tr><th>출생</th><td>1972년 6월 16일</td></tr><tr><th>학력</th><td>캘리포니아 대학교 샌디에이고캠퍼스 컴퓨터공학 학사</td></tr><tr><th>경력</th><td>산디아 국립연구소 컴퓨터 프로그래머</td></tr><tr><th>데뷔</th><td>소설 '마션'</td></tr><tr><th>링크</th><td><a href='index.html'>공식 사이트</a>, <a href='index.html'>트위터</a></td></tr>");
+        $("#authorDate").html("2018.12.03. 업데이트");
         var search=["헤일메리","마션 스페셜","아르테미스 스페셜","체셔 크로싱"];
         $(".sellbox2").empty();
         for (var i=0; i<search.length; i++){
@@ -143,7 +144,8 @@ $(function(){
         $("#authorBtn").css({"border-bottom":"1px solid #ddd"});
         $("#authorName").html("강동혁");
         $("#authorTmi").html("<tr><th>국적</th><td>대한민국</td></tr><tr><th>학력</th><td>서울대학교 대학원 영문학 석사<br>서울대학교 영문과 학사</td></tr>");
-        var search=["타이탄의 세이렌","해리포터 컴플리트","프로젝트 헤일메리","다가올 날들을 위한"];
+        $("#authorDate").html("2021.12.27. 업데이트");
+        var search=["타이탄의 세이렌","해리포터 컴플리트","프로젝트 헤일메리","다가올 날들을 위한","그 후의 삶"];
         $(".sellbox2").empty();
         for (var i=0; i<search.length; i++){
             $.ajax({
@@ -249,7 +251,7 @@ $(function(){
         alert("로그인 상태에서 가능합니다. 로그인 페이지로 이동합니다.");
     });
     $("#newAlam").click(function(){
-        alert("앤디 위어 작가의 신간 알림 소식받기를 신청하였습니다.");
+        alert("해당 작가의 신간 알림 소식받기를 신청하였습니다.");
     });
 });
 
