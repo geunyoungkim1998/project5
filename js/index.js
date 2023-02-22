@@ -142,8 +142,6 @@ $(function(){
     }
     });
 $(function(){
-        $("#sec5book>div>div").addClass("topbox");
-    
         var search=["바람을 사랑하다","기대의 발견","프로이트","시간이 있었으면","MBC 14층","오늘도 별일 없었어요","큇","미국인 사용빈도 다반사","마음가면","머니 스토리","더 바이브","메이드"];
     for (var i=0; i<search.length; i++){
         
